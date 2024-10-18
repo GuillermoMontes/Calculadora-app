@@ -1,12 +1,16 @@
 import Titulo from "./componentes/Titulo";
 import "./style/app.css";
 import Boton from "./componentes/Boton";
+import Pantalla from "./componentes/Pantalla";
+import BotonClear from "./componentes/BotonClear";
 
 function App() {
   return (
     <div className="app">
       <Titulo />
+
       <div className="contenedor-calculadora">
+        <Pantalla />
         <div className="fila">
           <Boton>1</Boton>
           <Boton>2</Boton>
@@ -31,7 +35,9 @@ function App() {
           <Boton>.</Boton>
           <Boton>/</Boton>
         </div>
-        <div className="fila"></div>
+        <div className="fila">
+          <BotonClear/>
+        </div>
       </div>
     </div>
   );

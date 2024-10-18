@@ -1,0 +1,18 @@
+.input{
+    height: 65px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(92, 205, 250, 0.678);
+    color: white;
+    padding: 11px 30px 11px 11px;
+    margin: 1px solid black;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 1px 4px 1px 1px rgb(131, 131, 131);
+}
