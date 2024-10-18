@@ -1,9 +1,10 @@
 import React from 'react'
 import "../style/botonClear.css"
 
-function BotonClear() {
+function BotonClear(props) {
   return (
-    <div className='boton-clear'>Clear</div>
+    <div className='boton-clear'
+    onClick={props.handleClear}>Clear</div>
   )
 }
 
