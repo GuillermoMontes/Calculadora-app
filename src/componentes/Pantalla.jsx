@@ -1,8 +1,14 @@
 import React from "react";
-import "../style/pantalla.css"
+import "../style/pantalla.css";
 
 function Pantalla({ input }) {
-  return <div className="input">{input}</div>;
+  
+  if (input == "") {
+    return <div className="input">0</div>;
+  } else {
+    
+    return <div className="input">{input}</div>;
+  }
 }
 
 export default Pantalla;
